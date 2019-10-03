@@ -30,9 +30,6 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
-	list-style: none;
-}
 blockquote, q {
 	quotes: none;
 }
@@ -84,7 +81,7 @@ h1, h2, h3, h4, h5 {
 	color: #c0c0c0;
 }
 
-h2{
+h2, ul{
 	font-size: 30px;
 	margin: 20px 0 10px 0;
 }
@@ -102,7 +99,7 @@ body{
 	height: 80%;
 }
 .pop{
-	margin: 10vh 0 10vh 0;
+	margin: 5vh 0 5vh 0;
 	border-top: 3px solid black;
 	border-bottom: 3px solid black;
 }
@@ -132,7 +129,7 @@ h1{
 .toolbar-displace{
 	display:block;
 	width: 100%;
-	height: 20vh;
+	height: 11vh;
 }
 
 .promo{
@@ -206,4 +203,84 @@ h1{
 
 .padded{
 	padding: 15px;
+}
+
+.contact{
+	width: 33%;
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;	
+}
+
+h3{
+	margin: 50px;
+	display: flex;
+	justify-content: center;
+	font-family: 'Titillium Web', sans-serif;
+}
+
+.long{
+	height: 120vh;
+}
+
+.container{
+	margin: 5vh 0;
+	display: flex;
+	border-top: 2px solid black;
+	border-bottom: 2px solid black;
+	flex-wrap: wrap;
+	height: 200vh;
+}
+
+.buttonBoxContainer{
+	width: 50%;
+	padding: 30px;
+}
+
+.buttonBox{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 100%;
+	border: 2px solid black;
+	padding: 30px;
+	background: #e1e1e1;
+}
+
+.buttonBox button{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 19px;
+	padding: 15px 60px;
+	align-self: flex-end;
+	border: 2px solid black;
+	border-radius: 8px;
+}
+
+.services-header-img{
+	width: 100%;
+}
+
+.servicesPromo h2{
+	font-size: 40px;
+}
+
+.container2{
+	display: flex;
+	flex-direction: row;
+	height: 80vh;
+}
+
+.wrapper{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	padding: 30px;
+}
+
+.services-info-img{
+	width: 100%;
+}
+
+ul{
+	line-height: 50px;
 }
